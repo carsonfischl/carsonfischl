@@ -11,7 +11,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Scientist. Hacker. All-Around Eccentric." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
+      <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono'>
+        <Nav />
+      </div>
     </div>
   )
 }
