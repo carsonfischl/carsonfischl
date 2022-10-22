@@ -5,7 +5,7 @@ type Props = {}
 const Bubbles = (props: Props) => {
   return (
     <section className="sticky">
-        <div className="absolute w-screen h-screen z-0 overflow-hidden">
+        <div className="absolute w-screen h-screen z-0">
             <div className="bubble"></div>
             <div className="bubble"></div>
             <div className="bubble"></div>
