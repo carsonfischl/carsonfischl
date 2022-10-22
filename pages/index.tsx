@@ -3,20 +3,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Bubbles from '../components/Bubbles'
+import Meta from '../components/Meta'
+import Sig from '../components/Sig'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <Head>
-        <title>Carson S. Fischl</title>
-        <meta name="description" content="Scientist. Hacker. All-Around Eccentric." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono'>
+    <>
+      <Meta title='Carson S. Fischl' description='Scientist. Hacker. All-Around Eccentric.'/>
+      <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono fixed'>
         <Nav />
+        <Sig />
         <Bubbles />
       </div>
-    </div>
+    </>
   )
 }
 

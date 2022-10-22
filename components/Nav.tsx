@@ -10,10 +10,10 @@ const Nav = () => {
             <div className='container flex flex-wrap items-center mx-auto p-2 justify-center'>
                 <a className='py-2 px-6 rounded-md hover:bg-pink-500 font-mono text-white mx-2' href="/work">Work</a>
                 <a className='py-2 px-6 rounded-md hover:bg-pink-500 font-mono text-white mx-2' href="/projects">Projects</a>
-                <a className='py-2 px-6 rounded-md hover:bg-pink-500 font-mono text-white mx-2' href="/blog">Blog</a>
+                <a className='py-2 px-6 rounded-md hover:bg-pink-500  font-mono text-white mx-2' href="/blog">Blog</a>
             </div>
                 <a className="before:block before:absolute before:-inset-3 before:-skew-y-3 before:bg-pink-500 relative inline-block" href='/'>
-                    <div className="relative text-white text-3xl">Carson Fischl</div>
+                    <div className="relative text-white text-3xl hover:text-slate-700">Carson Fischl</div>
                 </a>
             <div className='container flex flex-wrap items-center mx-auto p-2 justify-center'>
                 <a className='p-2 rounded-md hover:bg-pink-500 font-mono text-white mx-6' href="https://www.linkedin.com/in/carsonfischl/"><AiOutlineLinkedin size={30}/></a>
