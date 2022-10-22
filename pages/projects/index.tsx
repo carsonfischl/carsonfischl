@@ -5,7 +5,7 @@ import Meta from '../../components/Meta'
 
 type Props = {}
 
-const Blog = (props: Props) => {
+const index = (props: Props) => {
   return (
     <>
         <Meta title='Carson S. Fischl' description='Scientist. Hacker. All-Around Eccentric.'/>
@@ -16,4 +16,4 @@ const Blog = (props: Props) => {
   )
 }
 
-export default Blog
+export default index
