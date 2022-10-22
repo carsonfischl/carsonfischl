@@ -123,7 +123,7 @@ animation-delay:4s;
     margin: 1rem;
  }
 
- path{ 
+ .drawn { 
     stroke-dasharray: 3162.468017578125px;
     stroke-dashoffset: 3162.468017578125px;
     animation: LineAnimation 5s ease forwards;
