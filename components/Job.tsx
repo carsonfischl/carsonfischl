@@ -1,6 +1,6 @@
 import React from 'react'
 
-type Props = { title: string, company: string, location: string, start: string, end: string, description: string, tech: string[] }
+type Props = { title: string, company: string, start: string }
 
 const Job = (props: Props) => {
   return (
@@ -14,9 +14,6 @@ const Job = (props: Props) => {
         <div>
             <p className='text-2xl text-white'>{props.start}</p>
             </div>
-        <div>
-            <p className='text-2xl text-white'>{props.description}</p>
-        </div>
     </div>
   )
 }
