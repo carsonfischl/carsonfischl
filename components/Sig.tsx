@@ -4,7 +4,7 @@ type Props = {}
 
 const Sig = (props: Props) => {
   return (
-    <div className='sig translate-y-20 drop-shadow-lg flex'>
+    <div className='sig drop-shadow-lg flex'>
         <div className="letter" id='C'>
             <svg width="182" height="372" viewBox="0 0 182 372" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_5_2)">

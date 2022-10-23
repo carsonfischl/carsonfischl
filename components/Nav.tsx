@@ -6,7 +6,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 const Nav = () => {
   return (
     <div>
-        <nav className='w-screen h-40 flex align-middle text-align items-center fixed top-0 z-10'>
+        <nav className='w-screen h-40 flex align-middle text-align items-center relative top-0 z-10'>
             <div className='container flex flex-wrap items-center mx-auto p-2 justify-center'>
                 <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="/work">Work</a>
                 <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="/projects">Projects</a>
