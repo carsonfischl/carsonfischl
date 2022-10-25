@@ -17,8 +17,8 @@ const index = (props: Props) => {
         <Meta title='Carson S. Fischl' description='Scientist. Hacker. All-Around Eccentric.'/>
         <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono fixed'>
         <Nav />
-            <div className='align-middle justify-center items-center flex justify-items-center'>
-                <div className="grid grid-cols-3 gap-4">
+            <div className='align-middle justify-center items-center flex-none justify-items-center w-4/5 m-auto overflow-hidden h-100'>
+                <div className="grid grid-cols-3 gap-6">
                     <div className='text-center'>
                         <h1 className='text-4xl text-white font-bold font-mono p-4'>Engineering Intern</h1>
                         <h1 className='text-4xl text-white font-bold font-mono p-4'>Synopsys Inc.</h1>
@@ -37,9 +37,36 @@ const index = (props: Props) => {
                     <div>04</div>
                     <div>05</div>
                     <div>06</div>
-                    <div>07</div>
-                    <div>08</div>
-                    <div>09</div>
+                    <div className='text-left'>
+                        <ul className='text-white font-mono p-4'>
+                            <li>• Simulated and debugged DDR PHY releases for production chips for major industry
+clients to mitigate schedule risk.</li>
+                            <li>• Implemented swizzling features in LPDDR4/3 PHYs to expedite customer
+implementation in their SoC designs.</li>
+                            <li>• Contributed to building a complex Jira-Wrike ticket synchronization script to expedite
+internal workflows and assist in long term project planning.</li>
+                        </ul>
+                    </div>
+                    <div className='text-left'>
+                        <ul className='text-white font-mono p-4'>
+                            <li>• Was at the forefront of stakeholder outreach for Canada's COVID-19 testing program,
+dealing with small businesses, NGOs, and federal, provincial and municipal government
+officials.</li>
+                            <li>• Implemented a data capture pipeline for COVID-19 testing data in Canadian
+workplaces, allowing the Deputy Minister's office to view case numbers and track
+contagion across geographic areas.</li>
+                            <li>• Oversaw UAT, data validation, and data analysis on large datasets to assure data
+integrity and successful data pipelining from a public frontend.</li>
+                        </ul>
+                    </div>
+                    <div className='text-left'>
+                        <ul className='text-white font-mono p-4'>
+                            <li> Worked with a multi-disciplinary team to develop a data analysis pipeline for bulk RNA-seq data for Genome Canada's Genomic Applications Partnership Program (GAPP).</li>
+                            <li>• Used a high performance CentOS cluster to schedule and test fusion callers using bash
+and R.</li>
+                            <li>• Assisted in presenting an RNA-seq seminar to academics.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <Bubbles />
