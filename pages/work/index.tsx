@@ -42,6 +42,7 @@ const index = (props: Props) => {
                     <div>09</div>
                 </div>
             </div>
+            <Bubbles />
         </div>
     </>
   )
