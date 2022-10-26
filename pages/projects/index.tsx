@@ -22,10 +22,10 @@ const index = (props: Props) => {
                         <h3 className='italic font-mono text-white text-2xl my-4'>A Global Historiography through Numismatics</h3>
                         <a className='py-2 px-6 rounded-md hover:text-slate-700 bg-pink-500 font-mono text-white mx-2 my-8' href="https://comitas-collection.vercel.app">Under Construction</a>
                     </div>
-                    <div className=''>
+                    <div className='justify-centre align-middle m-auto'>
                         <Image src={cc} alt='Comitas Collection' className='rounded'/>
                     </div>
-                    <div className=''>
+                    <div className='justify-centre align-middle m-auto'>
                         <Image src={app} alt='personal app' className='rounded'/>
                     </div>
                     <div className='col-span-2 align-middle text-center justify-center m-auto py-8'>
@@ -38,7 +38,7 @@ const index = (props: Props) => {
                         <h3 className='italic font-mono text-white text-2xl my-8'>A Hardware Hack for a Mobile Weather Station</h3>
                         <a className='py-2 px-6 rounded-md hover:text-slate-700 bg-pink-500 font-mono text-white mx-2 my-8' href="https://cuhacking2020.tauheed-elahee.com/">The Site</a>
                     </div>
-                    <div className=''>
+                    <div className='justify-centre align-middle m-auto'>
                         <Image src={weather} alt='WeatherMe-LTE' className='rounded'/>
                     </div>
                 </div>
