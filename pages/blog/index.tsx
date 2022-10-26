@@ -32,7 +32,6 @@ const Blog = (props: Props) => {
                 </div>
             </div>
         </div>
-        <Bubbles />
     </>
   )
 }

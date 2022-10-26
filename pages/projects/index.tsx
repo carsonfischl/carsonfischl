@@ -19,7 +19,6 @@ const index = (props: Props) => {
                 </div>
             </div>
         </div>
-        <Bubbles />
     </>
   )
 }
