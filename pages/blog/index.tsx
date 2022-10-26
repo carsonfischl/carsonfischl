@@ -11,7 +11,7 @@ const Blog = (props: Props) => {
   return (
     <>
         <Meta title='Carson S. Fischl' description='Scientist. Hacker. All-Around Eccentric.'/>
-        <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono fixed'>
+        <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono fixed z-50'>
         <Nav />
             <div className='container mx-auto relative pt-12'>
                 <div className='flex flex-col items-center justify-center'>
