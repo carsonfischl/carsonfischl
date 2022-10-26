@@ -7,7 +7,8 @@ export const blogposts =
         firstLetter: "M",
         tags: ["tag1", "tag2", "tag3"],
         description: "This is my first blog post. It's about nothing in particular.",
-        href: "/blog/blogpost/1"
+        href: "/blog/blogpost/1",
+        key: "blogpost1"
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ export const blogposts =
         firstLetter: "M",
         tags: ["tag1", "tag2", "tag3"],
         description: "This is my second blog post. It's about nothing in particular.",
-        href: "/blog/blogpost/2"
+        href: "/blog/blogpost/2",
+        key: "blogpost2"
     },
 ]
