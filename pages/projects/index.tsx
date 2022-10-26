@@ -20,7 +20,7 @@ const index = (props: Props) => {
                     <div className='col-span-2 align-middle text-center justify-center m-auto py-8'>
                         <h1 className='italic font-mono text-white text-4xl my-4'>Comitas Collection</h1>
                         <h3 className='italic font-mono text-white text-2xl my-4'>A Global Historiography through Numismatics</h3>
-                        <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2 my-8' href="https://comitas-collection.vercel.app">Under Construction</a>
+                        <a className='py-2 px-6 rounded-md hover:text-slate-700 bg-pink-500 font-mono text-white mx-2 my-8' href="https://comitas-collection.vercel.app">Under Construction</a>
                     </div>
                     <div className=''>
                         <Image src={cc} alt='Comitas Collection' className='rounded'/>
@@ -29,14 +29,14 @@ const index = (props: Props) => {
                         <Image src={app} alt='personal app' className='rounded'/>
                     </div>
                     <div className='col-span-2 align-middle text-center justify-center m-auto py-8'>
-                        <h1 className='italic font-mono text-white text-4xl'>Personal App</h1>
-                        <h3 className='italic font-mono text-white text-2xl'>Some Personal Propagandizing</h3>
-                        <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="https://play.google.com/store/apps/details?id=com.carson.app">Under Construction</a>
+                        <h1 className='italic font-mono text-white text-4xl my-4'>Personal App</h1>
+                        <h3 className='italic font-mono text-white text-2xl my-4'>Some Personal Propagandizing</h3>
+                        <a className='py-2 px-6 rounded-md hover:text-slate-800 bg-pink-500 font-mono text-white mx-2 my-8' href="https://play.google.com/store/apps/details?id=com.carson.app">Under Construction</a>
                     </div>
                     <div className='col-span-2 align-middle text-center justify-center m-auto py-8'>
-                        <h1 className='italic font-mono text-white text-4xl'>WeatherMe-LTE</h1>
-                        <h3 className='italic font-mono text-white text-2xl'>A Hardware Hack for a Mobile Weather Station</h3>
-                        <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="https://cuhacking2020.tauheed-elahee.com/">The Remaining Site</a>
+                        <h1 className='italic font-mono text-white text-4xl my-4'>WeatherMe-LTE</h1>
+                        <h3 className='italic font-mono text-white text-2xl my-8'>A Hardware Hack for a Mobile Weather Station</h3>
+                        <a className='py-2 px-6 rounded-md hover:text-slate-700 bg-pink-500 font-mono text-white mx-2 my-8' href="https://cuhacking2020.tauheed-elahee.com/">The Site</a>
                     </div>
                     <div className=''>
                         <Image src={weather} alt='WeatherMe-LTE' className='rounded'/>
