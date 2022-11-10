@@ -7,7 +7,8 @@ import gov from '../../public/images/gov.png'
 import hospital from '../../public/images/hospital.png'
 import snps from '../../public/images/snps.png'
 import Image from 'next/image'
-
+import Loader from 'react-loader-spinner'
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
 type Props = {}
 
