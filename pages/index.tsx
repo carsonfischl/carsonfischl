@@ -5,6 +5,7 @@ import Nav from '../components/Nav'
 import Bubbles from '../components/Bubbles'
 import Meta from '../components/Meta'
 import Sig from '../components/Sig'
+import Typewriter from '../components/Typewriter'
 
 const Home: NextPage = () => {
   return (
