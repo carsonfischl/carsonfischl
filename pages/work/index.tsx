@@ -7,8 +7,7 @@ import gov from '../../public/images/gov.png'
 import hospital from '../../public/images/hospital.png'
 import snps from '../../public/images/snps.png'
 import Image from 'next/image'
-import Loader from 'react-loader-spinner'
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
+
 
 type Props = {}
 
@@ -16,9 +15,9 @@ const index = (props: Props) => {
   return (
     <>
         <Meta title='Carson S. Fischl' description='Scientist. Hacker. All-Around Eccentric.'/>
-        <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono static'>
+        <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-100 h-screen table-cell align-middle text-align items-center font-mono static'>
         <Nav />
-            <div className='align-middle justify-center items-center flex justify-items-center w-4/5 m-auto h-100'>
+            <div className='align-middle justify-center items-center flex justify-items-center w-4/5 m-auto h-100 overflow-y-hidden'>
                 <div className="grid grid-cols-3 gap-8 py-8">
                     <div className='col-span-3'>
                         <div className='text-center'>

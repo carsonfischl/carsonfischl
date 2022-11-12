@@ -13,7 +13,7 @@ const index = (props: Props) => {
   return (
     <>
         <Meta title='Carson S. Fischl' description='Scientist. Hacker. All-Around Eccentric.'/>
-        <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono overscroll-contain'>
+        <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-100 h-screen table-cell align-middle text-align items-center font-mono overscroll-contain'>
             <Nav />
             <div className='align-middle justify-center items-center flex justify-items-center w-4/5 m-auto h-100'>
                 <div className="grid grid-cols-3 gap-6 py-8">
