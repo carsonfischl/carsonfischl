@@ -18,7 +18,8 @@ const Post = (props: Props) => {
                     <div className='flex flex-col items-middle justify-left'>
                         <div className='flex flex-row items-left justify-left pb-12 mb-12'>
                             <div className='flex flex-col items-left justify-left'>
-                                <h1 className='text-4xl text-white font-bold'>1</h1>
+                                <h1 className='text-4xl text-white font-bold'>In Defence of Crypto...</h1>
+                                <h2 className='text-2xl text-white'>1. The Everything Bubble</h2>
                                 <p className='text-2xl text-white'>First post</p>
                                 <p className='text-2xl text-white'>More stuff</p>
                             </div>
