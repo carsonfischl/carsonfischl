@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../../components/Nav'
 import Bubbles from '../../components/Bubbles'
 import Meta from '../../components/Meta'
+import Running from '../../components/Running'
 
 type Props = {}
 
@@ -16,7 +17,7 @@ const hobbies = (props: Props) => {
                     <div className='flex flex-col items-middle justify-left h-100'>
                         <div className='flex flex-row items-left justify-left pb-12 mb-12'>
                             <div className='flex flex-col items-left justify-left'>
-                                <h1 className='text-4xl text-white font-bold'>Hobbies</h1>
+                                <Running />
                             </div>
                         </div>
                     </div>
