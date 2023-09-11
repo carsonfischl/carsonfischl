@@ -11,7 +11,7 @@ const Nav = () => {
                 <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="/work">Work</a>
                 <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="/projects">Projects</a>
                 <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="https://resume.creddle.io/resume/j47o66f6m78">Résumé</a>
-                <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="/images/RésuméFrancaisCF.pdf">CV français</a>
+                <a className='py-2 px-6 rounded-md hover:bg-pink-500 active:bg-pink-500 font-mono text-white mx-2' href="/images/RésuméFrancaisCF.pdf">Résumé français</a>
             </div>
                 <a className="before:block before:absolute before:-inset-3 before:-skew-y-3 before:bg-pink-500 relative inline-block" href='/'>
                     <div className="relative text-white text-3xl hover:text-slate-700">Carson Fischl</div>
