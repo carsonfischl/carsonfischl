@@ -12,7 +12,7 @@ const index = (props: Props) => {
             <Nav />
             <div className="self-center justify-center align-middle w-100 grid pb-12 pt-6">
               <iframe src="https://resume.creddle.io/embed/j47o66f6m78" width="827" height="1168" seamless className='self-center align-middle justify-center w-100'></iframe>
-              <iframe src="https://carsonfischl.vercel.app/images/R%C3%A9sum%C3%A9FrancaisCF.pdf" width="827" height="1168" className='self-center align-middle justify-center w-100'>
+              <iframe src="https://carsonfischl.vercel.app/images/R%C3%A9sum%C3%A9FrancaisCF.pdf" width="827" height="1168" className='self-center align-middle justify-center w-100 pt-12 pb-12'>
         </iframe>
             </div>
         </div>
