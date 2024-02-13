@@ -72,8 +72,8 @@
         }
       </style>
 
-      <div class="container" style="width: 80%">
-        <h1>Hi! I'm Carson. <div class="hi">👋</div>
+      <div class="container" style="width: 100%">
+        <h1 style="width: 80%">Hi! I'm Carson. <div class="hi">👋</div>
         
         I enjoy ancient history, 📜 biology, 🧬 politics, 🏛️ numismatics, 🪙 and going to the gym. 💪</h1>
       </div>
