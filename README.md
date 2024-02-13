@@ -1,4 +1,6 @@
-Hi! I'm Carson. I enjoy ancient history, 📜 biology, 🧬 politics, 🏛️ numismatics, 🪙 and going to the gym. 💪
+<div style="width: 100%;">
+  <img src="animated.svg" style="width: 100%;" alt="Click to see the source">
+</div>
 
 [![Carson's GitHub stats](https://github-readme-stats.vercel.app/api?username=carsonfischl&rank_icon=github)](https://github.com/anuraghazra/github-readme-stats)
 
