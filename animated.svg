@@ -76,11 +76,12 @@
         <h1 style="width: 80%">Hi! I'm Carson. <div class="hi">👋</div>
         I enjoy ancient history, 📜 biology, 🧬 politics, 🏛️ numismatics, 🪙 and going to the gym. 💪</h1>
       </div>
+    </div>
+  </foreignObject>
+</svg>
+
       <div class="stats">
         <img src="https://github-readme-stats.vercel.app/api?username=carsonfischl"/>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carsonfischl"/>
         <img src="https://github-profile-trophy.vercel.app/?username=carsonfischl"/>
       </div>
-    </div>
-  </foreignObject>
-</svg>
