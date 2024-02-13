@@ -1,10 +1,5 @@
 <div style="width: 100%;">
   <img src="animated.svg" style="width: 100%;" alt="Click to see the source">
-  [![Carson's GitHub stats](https://github-readme-stats.vercel.app/api?username=carsonfischl&rank_icon=github)]()
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=carsonfischl&hide=html)]()
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=carsonfischl)]()
 </div>
 
 Credit to [Anurag Hazra](https://github.com/anuraghazra/) for these Github stats.
