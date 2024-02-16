@@ -28,7 +28,7 @@
 
 [![Carson's GitHub Stats](https://github-readme-stats.vercel.app/api?username=carsonfischl&rank_icon=github)](https://carsonfischl.vercel.app/)
 
-![Carson's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=carsonfischl&hide=html,css,scss)()
+![Carson's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=carsonfischl&hide=html,css,scss)
 
 [![Carson's Github Trophies](https://github-profile-trophy.vercel.app/?username=carsonfischl)]
 
