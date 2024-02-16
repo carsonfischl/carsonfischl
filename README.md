@@ -4,11 +4,7 @@
 
 # Languages I prefer
 
-[![My Skills](https://skillicons.dev/icons?i=py,js,html,css)](https://carsonfischl.vercel.app/)
-
-# Languages I have used 
-
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,java,haskell,r)](https://carsonfischl.vercel.app/)
+[![My Skills](https://skillicons.dev/icons?i=py,js,html,css,c,cpp,java,haskell,r)](https://carsonfischl.vercel.app/)
 
 # Frameworks I enjoy
 
