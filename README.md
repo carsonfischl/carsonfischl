@@ -6,10 +6,6 @@
 
 [![My Skills](https://skillicons.dev/icons?i=py,js,html,css,c,cpp,java,haskell,r)](https://skillicons.dev)
 
-# I can develop on 
-
-[![My Skills](https://skillicons.dev/icons?i=linux)](https://skillicons.dev)
-
 # Frameworks I have used include
 
 [![My Skills](https://skillicons.dev/icons?i=electron,flask,nextjs,qt,react)](https://skillicons.dev)
@@ -24,7 +20,7 @@
 
 # Ancillary tools I have used include
 
-[![My Skills](https://skillicons.dev/icons?i=bootstrap,github,git,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode&perline=5)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,github,git,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode)](https://skillicons.dev)
 
 # I can be reached by 
 
