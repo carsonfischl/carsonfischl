@@ -58,7 +58,7 @@
         .spin {
           animation: spin 1.5s linear infinite;
           display: inline-block;
-          transform-origin: 70% 70%;
+          transform-origin: 50% 50%;
         }
 
         .hi {
