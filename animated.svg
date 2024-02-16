@@ -50,6 +50,15 @@
           100% { transform: translateY(0) }
         }
 
+        @keyframes skew-x-shakeng{
+          0% { transform: skewX(-15deg); }
+          5% { transform: skewX(15deg); }
+          10% { transform: skewX(-15deg); }
+          15% { transform: skewX(15deg); }
+          20% { transform: skewX(0deg); }
+          100% { transform: skewX(0deg); }
+        }
+
         .container {
           --color-main: #0f0f0f;
           --color-primary:  #757575;
@@ -95,6 +104,12 @@
           transform-origin: 50% 50%; 
         }
 
+        .skew-x-shaking{
+          animation: skew-x-shakeng 5s linear infinite;
+          display: inline-block;
+          transform-origin: 50% 50%; 
+        }
+
         @media (prefers-color-scheme: light) {
           .container {
           --color-main: #0f0f0f;
@@ -116,12 +131,24 @@
           .spin {
             animation: none;
           }
+
+          .horizontal-shaking {
+            animation: none;
+          }
+
+          .vertical-shaking {
+            animation: none;
+          }
+
+          .skew-x-shaking {
+            animation: none;
+          }
         }
       </style>
 
       <div class="container" style="width: 100%">
         <h1 style="width: 80%">Hi! I'm Carson. <div class="hi">👋</div>
-        I enjoy ancient history, <div class="vertical-shaking">📜</div> biology, 🧬 politics, <div class="horizontal-shaking">🏛️</div> numismatics, <div class="spin">🪙</div> and going to the gym. 💪</h1>
+        I enjoy ancient history, <div class="vertical-shaking">📜</div> biology, <div class="skew-x-shaking">🧬</div> politics, <div class="horizontal-shaking">🏛️</div> numismatics, <div class="spin">🪙</div> and going to the gym. 💪</h1>
       </div>
     </div>
   </foreignObject>
