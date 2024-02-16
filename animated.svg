@@ -55,6 +55,12 @@
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         }
 
+        .spin {
+          animation: spin 1.5s linear infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+
         .hi {
           animation: hi 1.5s linear -0.5s infinite;
           display: inline-block;
@@ -76,6 +82,10 @@
           }
 
           .hi {
+            animation: none;
+          }
+
+          .spin {
             animation: none;
           }
         }
