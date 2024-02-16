@@ -32,6 +32,8 @@
 
 ![Carson's Github Trophies](https://github-profile-trophy.vercel.app/?username=carsonfischl)
 
+[![Carson's Leetcode Stats](https://leetcard.jacoblin.cool/carson6f)](https://leetcode.com/carson6f)
+
 Credit to [Anurag Hazra](https://github.com/anuraghazra/) for these Github stats.
 
 Credit to [Ryota Sakamoto](https://github.com/ryo-ma) for the Github trophies.
