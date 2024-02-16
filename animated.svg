@@ -34,6 +34,22 @@
           }
         }
 
+        @keyframes horizontal-shaking {
+          0% { transform: translateX(0) }
+          25% { transform: translateX(5px) }
+          50% { transform: translateX(-5px) }
+          75% { transform: translateX(5px) }
+          100% { transform: translateX(0) }
+        }
+
+        @keyframes vertical-shaking {
+          0% { transform: translateY(0) }
+          25% { transform: translateY(5px) }
+          50% { transform: translateY(-5px) }
+          75% { transform: translateY(5px) }
+          100% { transform: translateY(0) }
+        }
+
         .container {
           --color-main: #0f0f0f;
           --color-primary:  #757575;
@@ -67,6 +83,18 @@
           transform-origin: 70% 70%;
         }
 
+        .horizontal-shaking{
+          animation: horizontal-shaking 1s linear infinite;
+          display: inline-block;
+          transform-origin: 50% 50%; 
+        }
+
+        .vertical-shaking{
+          animation: vertical-shaking 1s linear infinite;
+          display: inline-block;
+          transform-origin: 50% 50%; 
+        }
+
         @media (prefers-color-scheme: light) {
           .container {
           --color-main: #0f0f0f;
@@ -93,7 +121,7 @@
 
       <div class="container" style="width: 100%">
         <h1 style="width: 80%">Hi! I'm Carson. <div class="hi">👋</div>
-        I enjoy ancient history, 📜 biology, 🧬 politics, 🏛️ numismatics, <div class="spin">🪙</div> and going to the gym. 💪</h1>
+        I enjoy ancient history, <div class="vertical-shaking">📜</div> biology, 🧬 politics, <div class="horizontal-shaking">🏛️</div> numismatics, <div class="spin">🪙</div> and going to the gym. 💪</h1>
       </div>
     </div>
   </foreignObject>
