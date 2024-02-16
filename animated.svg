@@ -84,13 +84,13 @@
         }
 
         .horizontal-shaking{
-          animation: horizontal-shaking 1s linear infinite;
+          animation: horizontal-shaking 5s linear infinite;
           display: inline-block;
           transform-origin: 50% 50%; 
         }
 
         .vertical-shaking{
-          animation: vertical-shaking 1s linear infinite;
+          animation: vertical-shaking 5s linear infinite;
           display: inline-block;
           transform-origin: 50% 50%; 
         }
