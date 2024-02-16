@@ -25,6 +25,15 @@
           }
         }
 
+        @keyframes spin {
+          from {
+              transform:rotate(0deg);
+          }
+          to {
+              transform:rotate(360deg);
+          }
+        }
+
         .container {
           --color-main: #0f0f0f;
           --color-primary:  #757575;
