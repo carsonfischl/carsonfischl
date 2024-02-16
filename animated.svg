@@ -56,7 +56,7 @@
         }
 
         .spin {
-          animation: spin 1.5s linear infinite;
+          animation: spin 5s linear infinite;
           display: inline-block;
           transform-origin: 50% 50%;
         }
