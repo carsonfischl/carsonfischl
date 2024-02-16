@@ -20,7 +20,7 @@
 
 # Ancillary tools I have used include
 
-[![My Skills](https://skillicons.dev/icons?i=bootstrap,github,git,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode)](https://carsonfischl.vercel.app/)
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode)](https://carsonfischl.vercel.app/)
 
 # I can be reached by 
 
