@@ -2,7 +2,7 @@
   <img src="animated.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
-# Languages I have used professionally or in school include
+# Languages I have used include
 
 [![My Skills](https://skillicons.dev/icons?i=py,js,html,css,c,cpp,java,haskell,r)](https://skillicons.dev)
 
