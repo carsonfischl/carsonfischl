@@ -2,23 +2,27 @@
   <img src="animated.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
-# Languages I have used include
+# Languages I prefer
 
-[![My Skills](https://skillicons.dev/icons?i=py,js,html,css,c,cpp,java,haskell,r)](https://carsonfischl.vercel.app/)
+[![My Skills](https://skillicons.dev/icons?i=py,js,html,css)](https://carsonfischl.vercel.app/)
 
-# Frameworks I have used include
+# Languages I have used 
+
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,java,haskell,r)](https://carsonfischl.vercel.app/)
+
+# Frameworks I enjoy
 
 [![My Skills](https://skillicons.dev/icons?i=electron,flask,nextjs,qt,react)](https://carsonfischl.vercel.app/)
 
-# Databases I have used include
+# Databases that make sense to me
 
 [![My Skills](https://skillicons.dev/icons?i=mongodb,mysql,sqlite)](https://carsonfischl.vercel.app/)
 
-# Version control tools I have used include
+# Version control tools that accelerate development for me 
 
 [![My Skills](https://skillicons.dev/icons?i=github,git,gitlab)](https://carsonfischl.vercel.app/)
 
-# Ancillary tools I have used include
+# Ancillary tools that I use make the developer experience better
 
 [![My Skills](https://skillicons.dev/icons?i=bootstrap,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode)](https://carsonfischl.vercel.app/)
 
