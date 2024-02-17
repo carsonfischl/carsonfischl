@@ -2,27 +2,27 @@
   <img src="animated.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
-# Languages I prefer
+# Languages
 
 [![My Skills](https://skillicons.dev/icons?i=py,js,html,css,c,cpp,java,haskell,r)]()
 
-# Frameworks I enjoy
+# Frameworks
 
 [![My Skills](https://skillicons.dev/icons?i=electron,flask,nextjs,qt,react)]()
 
-# Databases that make sense to me
+# Databases
 
 [![My Skills](https://skillicons.dev/icons?i=mongodb,mysql,sqlite)]()
 
-# Version control tools that accelerate development for me 
+# Version control
 
 [![My Skills](https://skillicons.dev/icons?i=github,git,gitlab)]()
 
-# Ancillary tools that I use make the developer experience better
+# Ancillary tools 
 
 [![My Skills](https://skillicons.dev/icons?i=bootstrap,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode)]()
 
-# I can be reached by 
+# I can be found on
 
 [![My Skills](https://skillicons.dev/icons?i=gmail,instagram,discord,linkedin,stackoverflow,twitter)]()
 
