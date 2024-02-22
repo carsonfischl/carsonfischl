@@ -10,6 +10,13 @@ const Meta = (props: Props) => {
             <title>{props.title}</title>
             <meta name="description" content={props.description} />
             <link rel="icon" href="/icon.ico" />
+            <meta property="og:title" content="Carson S. Fischl"></meta>
+            <meta property="og:site_name" content="Carson S. Fischl"></meta>
+            <meta property="og:type" content="article"></meta>
+            <meta property="og:url" content="carsonfischl.vercel.app"></meta>
+            <meta property="og:image" content="carsonfischl.vercel.app/images/IMG_1398.png"></meta>
+            <meta property="og:image" content="carsonfischl.vercel.app/images/IMG_1398.png"></meta>
+            <meta property="og:description" content="Scientist. Hacker. Eccentric."></meta>
         </Head>
     </div>
   )
