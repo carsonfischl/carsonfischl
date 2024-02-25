@@ -37,3 +37,7 @@
 Credit to [Anurag Hazra](https://github.com/anuraghazra/) for these Github stats.
 
 Credit to [Ryota Sakamoto](https://github.com/ryo-ma) for the Github trophies.
+
+| **Command** | stuff |
+| **git status** | List all new or modified files |
+| **git diff** | Show file differences that haven't been staged |
