@@ -11,7 +11,7 @@ const About = (props: Props) => {
     <div>
         <Meta title='Carson S. Fischl' description='Scientist. Hacker. All-Around Eccentric.'/>
         <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-100 h-screen table-cell align-middle text-align items-center font-mono overscroll-contain'>
-            <Nav className='fixed'/>
+            <Nav/>
             <div className='align-middle justify-center items-center justify-items-center w-4/5 m-auto h-100'>
                 <div className="items-left flex">
                     <h1 className='text-4xl text-white font-bold font-mono p-4'>Hi!</h1>
