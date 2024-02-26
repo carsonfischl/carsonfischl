@@ -242,6 +242,13 @@
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
+"@vercel/analytics@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.2.2.tgz"
+  integrity sha512-X0rctVWkQV1e5Y300ehVNqpOfSOufo7ieA5PIdna8yX/U7Vjz0GFsGf4qvAhxV02uQ2CVt7GYcrFfddXXK2Y4A==
+  dependencies:
+    server-only "^0.0.1"
+
 acorn-node@^1.8.2:
   version "1.8.2"
   resolved "https://registry.npmjs.org/acorn-node/-/acorn-node-1.8.2.tgz"
@@ -650,7 +657,7 @@ nanoid@^3.3.6:
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz"
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
-next@^14.0.1:
+next@^14.0.1, "next@>= 13":
   version "14.0.1"
   resolved "https://registry.npmjs.org/next/-/next-14.0.1.tgz"
   integrity sha512-s4YaLpE4b0gmb3ggtmpmV+wt+lPRuGtANzojMQ2+gmBpgX9w5fTbjsy6dXByBuENsdCX5pukZH/GxdFgO62+pA==
@@ -808,7 +815,7 @@ react-loader-spinner@^5.3.4:
     styled-components "^5.3.5"
     styled-tools "^1.7.2"
 
-react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", react@^18.1.0, react@^18.2.0, "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@18.1.0:
+react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^18 || ^19", react@^18.1.0, react@^18.2.0, "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@18.1.0:
   version "18.1.0"
   resolved "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   integrity sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==
@@ -856,6 +863,11 @@ scheduler@^0.22.0:
   integrity sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==
   dependencies:
     loose-envify "^1.1.0"
+
+server-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz"
+  integrity sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==
 
 shallowequal@^1.1.0:
   version "1.1.0"

@@ -6,6 +6,7 @@ import Bubbles from '../components/Bubbles'
 import Meta from '../components/Meta'
 import Sig from '../components/Sig'
 import Typewriter from '../components/Typewriter'
+import { Analytics } from "@vercel/analytics/react"
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         <Sig />
         <Bubbles />
       </div>
+      <Analytics />
     </>
   )
 }
