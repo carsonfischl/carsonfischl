@@ -3,6 +3,11 @@ import Image from 'next/image'
 import bordeaux from '../../public/images/IMG_1076.png'
 import Nav from '../../components/Nav'
 import Meta from '../../components/Meta'
+import langs from '../../public/images/tech6.svg'
+import frameworks from '../../public/images/tech7.svg'
+import databases from '../../public/images/tech3.svg'
+import tools from '../../public/images/tech4.svg.png'
+
 
 type Props = {}
 
@@ -20,6 +25,26 @@ const About = (props: Props) => {
                 <p className='font-mono text-white text-xl my-4'>I am a programmer, history buff, numismatist, traveler, and fitness enthusiast</p>
                 <p className='font-mono text-white text-xl my-4'>I am currently a graduate student at the University of Bordeaux, studying for my MBA. I am passionate about economics, digital marketing, and the synergies between information technology and business.</p>
                 <Image src={bordeaux} alt="bordeaux" width={500} height={500}/>
+                <div className='align-middle justify-center items-center flex justify-items-center w-4/5 m-auto h-100'>
+                <div className="grid grid-cols-3 gap-6 py-8">
+                    <div className='justify-centre align-middle m-auto'>
+                        <h2 className='text-4xl text-white font-bold font-mono p-4'>Languages</h2>
+                        <Image src={langs} alt='langs' className='rounded'/>
+                    </div>
+                    <div className='col-span-2 align-middle text-center justify-center m-auto py-8'>
+                        <h2 className='text-4xl text-white font-bold font-mono p-4'>Frameworks</h2>
+                        <Image src={frameworks} alt='frameworks' className='rounded'/>
+                    </div>
+                    <div className='col-span-2 align-middle text-center justify-center m-auto py-8'>
+                        <h2 className='text-4xl text-white font-bold font-mono p-4'>Databases</h2>
+                        <Image src={databases} alt='databases' className='rounded'/>
+                    </div>
+                    <div className='justify-centre align-middle m-auto'>
+                        <h2 className='text-4xl text-white font-bold font-mono p-4'>Tools</h2>
+                        <Image src={tools} alt='tools' className='rounded'/>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </div>

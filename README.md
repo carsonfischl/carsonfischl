@@ -4,11 +4,11 @@
 
 # Languages
 
-[![My Skills](https://skillicons.dev/icons?i=py,js,html,css,c,cpp,java,haskell,r&perline=3)]()
+[![My Skills](https://skillicons.dev/icons?i=py,js,html,css,c,cpp,java,haskell,r)]()
 
 # Frameworks
 
-[![My Skills](https://skillicons.dev/icons?i=electron,flask,nextjs,qt,react&perline=3)]()
+[![My Skills](https://skillicons.dev/icons?i=electron,flask,nextjs,qt,react)]()
 
 # Databases
 
@@ -20,11 +20,11 @@
 
 # Ancillary tools 
 
-[![My Skills](https://skillicons.dev/icons?i=bootstrap,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode&perline=3)]()
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,latex,nginx,nodejs,postman,raspberrypi,selenium,svg,tensorflow,vercel,vim,vscode)]()
 
 # I can be found on
 
-[![My Skills](https://skillicons.dev/icons?i=gmail,instagram,discord,linkedin,stackoverflow,twitter&perline=3)]()
+[![My Skills](https://skillicons.dev/icons?i=gmail,instagram,discord,linkedin,stackoverflow,twitter)]()
 
 [![Carson's GitHub Stats](https://github-readme-stats.vercel.app/api?username=carsonfischl&rank_icon=github)]()
 
