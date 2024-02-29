@@ -7,7 +7,7 @@ import langs from '../../public/images/tech6.svg'
 import frameworks from '../../public/images/tech7.svg'
 import databases from '../../public/images/tech3.svg'
 import tools from '../../public/images/tech4.svg'
-
+import ottawa from '../../public/images/IMG_4557.png'
 
 type Props = {}
 
@@ -23,7 +23,11 @@ const About = (props: Props) => {
                   <h2 className='text-2xl text-white font-bold font-mono p-4'>My name is Carson.</h2>
                 </div>
                 <p className='font-mono text-white text-xl my-4'>I am a programmer, history buff, numismatist, traveler, and fitness enthusiast.</p>
-                <p className='font-mono text-white text-xl my-4'>I am currently a graduate student at the University of Bordeaux, studying for my MBA. I am passionate about economics, digital marketing, and the synergies between information technology and business.</p>
+                <p className='font-mono text-white text-xl my-4'>Previously, I worked in Ottawa, Ontario, Canada, in the public service and the tech sector. I love Canada's expansive forests and amazing, natural beauty.</p>
+                <div className="align-center">
+                  <Image src={ottawa} alt="ottawa" className='justify-center align-middle flex m-5'/>
+                </div>
+                <p className='font-mono text-white text-xl my-4'>I am currently a graduate student at the University of Bordeaux, studying for my MBA. I am passionate about economics, digital marketing, and the synergies between information technology and business. Traveling around France and Europe has been an amazing experience - it's immense pleasure to learn about French cheeses (comté is my favourite), pastries (cannelés are the local Bordelais specialty), and other details of European culture and business.</p>
                 <div className="align-center">
                   <Image src={bordeaux} alt="bordeaux" className='justify-center align-middle flex m-5'/>
                 </div>
