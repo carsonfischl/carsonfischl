@@ -29,7 +29,7 @@ const index = (props: Props) => {
                         </div>
                     </div>
                     <div className=''>
-                        <Image src={bordeaux} alt="bordeaux" width={500} height={500}/>
+                        <Image src={bordeaux} alt="bordeaux" width={500} height={500} className='rounded'/>
                     </div>
                     <div className='text-center col-span-2 justify-center align-middle m-auto'>
                         <ul className='text-white font-mono p-4 text-left'>
@@ -55,7 +55,7 @@ const index = (props: Props) => {
                         </ul>
                     </div>
                     <div className=''>
-                        <Image src={dell} alt="Dell" width={500} height={500}/>
+                        <Image src={dell} alt="Dell" width={500} height={500} className='rounded'/>
                     </div>
                     <div className='col-span-3'>
                         <div className='text-center'>
@@ -65,7 +65,7 @@ const index = (props: Props) => {
                         </div>
                     </div>
                     <div className=''>
-                        <Image src={snps} alt="synopsys" width={500} height={500}/>
+                        <Image src={snps} alt="synopsys" width={500} height={500} className='rounded'/>
                     </div>
                     <div className='text-center col-span-2 justify-center align-middle m-auto'>
                         <ul className='text-white font-mono p-4 text-left'>
@@ -101,7 +101,7 @@ integrity and successful data pipelining from a public frontend.</li>
                         </ul>
                     </div>
                     <div className=''>
-                        <Image src={gov} alt="Government of Canada" width={500} height={500}/>
+                        <Image src={gov} alt="Government of Canada" width={500} height={500} className='rounded'/>
                     </div>
                     <div className='col-span-3 text-center'>
                         <h1 className='text-4xl text-white font-bold font-mono p-4'>Ottawa Hospital Research Institute</h1>
