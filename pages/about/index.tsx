@@ -8,6 +8,7 @@ import frameworks from '../../public/images/tech7.svg'
 import databases from '../../public/images/tech3.svg'
 import tools from '../../public/images/tech4.svg'
 import ottawa from '../../public/images/IMG_4557.png'
+import rightarrow from '../../public/images/rightarrow.svg'
 
 type Props = {}
 
@@ -33,30 +34,42 @@ const About = (props: Props) => {
                 </div>
                 <p className='font-mono text-white text-xl my-4'>While I have worked in the semiconductor and telecommunications areas professionally, I mostly enjoy web development. You can see some technologies I have worked with below.</p>
                 <div className="py-8 items-center justify-center">
-                  <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-20 w-100 my-4">
+                  <div className="grid sm:grid-cols-1 lg:grid-cols-6 gap-20 w-100 my-4">
                       <div className='justify-centre align-top m-auto flex'>
-                          <h2 className='text-2xl text-white font-mono p-4'>Languages</h2>
+                          <h2 className='text-2xl text-white font-mono p-4 italic'>Languages</h2>
+                      </div>
+                      <div className='justify-centre align-top m-auto flex w-12'>
+                        <Image src={rightarrow} alt='rightarrow' className='rounded'/>
                       </div>
                       <div className='justify-centre align-top m-auto flex'>
                         <Image src={langs} alt='langs' className='rounded'/>
-                    </div>
-                      <div className='justify-top align-top m-auto flex'>
-                        <Image src={frameworks} alt='frameworks' className='rounded'/>
-                    </div>
-                      <div className='justify-top align-top m-auto flex'>
-                          <h2 className='text-2xl text-white font-mono p-4'>Frameworks</h2>
                       </div>
                       <div className='justify-top align-top m-auto flex'>
-                          <h2 className='text-2xl text-white font-mono p-4'>Databases</h2>
+                        <Image src={frameworks} alt='frameworks' className='rounded'/>
+                      </div>
+                      <div className='justify-centre align-top m-auto flex w-12'>
+                        <Image src={rightarrow} alt='leftarrow' className='rounded xs:rotate-90 sm:rotate-90 lg:rotate-180'/>
+                      </div>
+                      <div className='justify-top align-top m-auto flex'>
+                          <h2 className='text-2xl text-white font-mono p-4 italic'>Frameworks</h2>
+                      </div>
+                      <div className='justify-top align-top m-auto flex'>
+                          <h2 className='text-2xl text-white font-mono p-4 italic'>Databases</h2>
+                      </div>
+                      <div className='justify-centre align-top m-auto flex w-12'>
+                        <Image src={rightarrow} alt='rightarrow' className='rounded'/>
                       </div>
                       <div className='justify-top align-top m-auto flex'>
                         <Image src={databases} alt='databases' className='rounded'/>
-                    </div>
-                    <div className='justify-centre align-top m-auto flex'>
+                      </div>
+                      <div className='justify-centre align-top m-auto flex'>
                         <Image src={tools} alt='tools' className='rounded'/>
-                    </div>
-                      <div className='justify-center align-top m-auto flex'>
-                          <h2 className='text-2xl text-white font-mono p-4'>Ancillary Tools</h2>
+                      </div>
+                      <div className='justify-centre align-top m-auto flex w-12'>
+                        <Image src={rightarrow} alt='leftarrow' className='rounded xs:rotate-90 sm:rotate-90 lg:rotate-180'/>
+                      </div>
+                      <div className='justify-center align-top m-auto flex text-center'>
+                          <h2 className='text-2xl text-white font-mono p-4 italic'>Ancillary Tools</h2>
                       </div>
                 </div>
                 </div>
