@@ -33,9 +33,15 @@ const About = (props: Props) => {
                 </div>
                 <p className='font-mono text-white text-xl my-4'>While I have worked in the semiconductor and telecommunications areas professionally, I mostly enjoy web development. You can see some technologies I have worked with below.</p>
                 <div className="py-8 items-center justify-center">
-                  <div className="grid grid-cols-4 gap-20 w-100 my-4">
+                  <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-20 w-100 my-4">
                       <div className='justify-centre align-top m-auto flex'>
                           <h2 className='text-2xl text-white font-mono p-4'>Languages</h2>
+                      </div>
+                      <div className='justify-centre align-top m-auto flex'>
+                        <Image src={langs} alt='langs' className='rounded'/>
+                    </div>
+                      <div className='justify-top align-top m-auto flex'>
+                        <Image src={frameworks} alt='frameworks' className='rounded'/>
                     </div>
                       <div className='justify-top align-top m-auto flex'>
                           <h2 className='text-2xl text-white font-mono p-4'>Frameworks</h2>
@@ -43,24 +49,16 @@ const About = (props: Props) => {
                       <div className='justify-top align-top m-auto flex'>
                           <h2 className='text-2xl text-white font-mono p-4'>Databases</h2>
                       </div>
-                      <div className='justify-center align-top m-auto flex'>
-                          <h2 className='text-2xl text-white font-mono p-4'>Ancillary Tools</h2>
-                      </div>
-                    </div>
-                  <div className="grid grid-cols-4 gap-20 w-100 my-8">
-                    <div className='justify-centre align-top m-auto flex'>
-                        <Image src={langs} alt='langs' className='rounded'/>
-                  </div>
-                    <div className='justify-top align-top m-auto flex'>
-                        <Image src={frameworks} alt='frameworks' className='rounded'/>
-                    </div>
-                    <div className='justify-top align-top m-auto flex'>
+                      <div className='justify-top align-top m-auto flex'>
                         <Image src={databases} alt='databases' className='rounded'/>
                     </div>
                     <div className='justify-centre align-top m-auto flex'>
                         <Image src={tools} alt='tools' className='rounded'/>
                     </div>
-                  </div>
+                      <div className='justify-center align-top m-auto flex'>
+                          <h2 className='text-2xl text-white font-mono p-4'>Ancillary Tools</h2>
+                      </div>
+                </div>
                 </div>
                 <p className='font-mono text-white text-xl my-4 mb-24'>I am always looking for new opportunities and challenges. If you have a project or job you think I would be a good fit for, please don't hesitate to reach out to me.</p>
             </div>
