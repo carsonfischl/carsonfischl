@@ -9,6 +9,7 @@ import databases from '../../public/images/tech3.svg'
 import tools from '../../public/images/tech4.svg'
 import ottawa from '../../public/images/IMG_4557.png'
 import rightarrow from '../../public/images/rightarrow.svg'
+import uparrow from '../../public/images/uparrow.svg'
 
 type Props = {}
 

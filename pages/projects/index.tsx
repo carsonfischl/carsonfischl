@@ -25,13 +25,13 @@ const index = (props: Props) => {
                         <h1 className='text-4xl text-white font-bold font-mono p-4'>No Fixed Address</h1>
                         <h3 className='font-mono text-white text-2xl my-4'>A Travel Blog</h3>
                         <br></br>
-                        <a className='py-2 px-6 rounded-md hover:text-slate-800 bg-pink-500 font-mono text-white mx-2 my-8' href="https://no-fixed-address.netlify.app/">Under Construction</a>
+                        <a className='py-2 px-6 rounded-md hover:text-slate-800 bg-pink-500 font-mono text-white mx-2 my-8 ruby w-fit align-middle justify-center m-auto' href="https://no-fixed-address.netlify.app/">Under Construction</a>
                     </div>
                     <div className='col-span-2 align-middle text-center justify-center m-auto py-8'>
                         <h1 className='text-4xl text-white font-bold font-mono p-4'>Comitas Collection</h1>
                         <h3 className='font-mono text-white text-2xl my-4'>A Global Historiography through Numismatics</h3>
                         <br></br>
-                        <a className='py-2 px-6 rounded-md hover:text-slate-700 bg-pink-500 font-mono text-white mx-2 my-8' href="https://comitas-collection.vercel.app">Check it out</a>
+                        <a className='py-2 px-6 rounded-md hover:text-slate-700 bg-pink-500 font-mono text-white mx-2 my-8 ruby' href="https://comitas-collection.vercel.app">Check it out</a>
                     </div>
                     <div className='justify-centre align-middle m-auto'>
                         <Image src={cc} alt='Comitas Collection' className='rounded'/>
