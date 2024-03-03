@@ -30,7 +30,7 @@
 
 ![Carson's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=carsonfischl&hide=html,css,scss)
 
-![Carson's Github Trophies](https://github-profile-trophy.vercel.app/?username=carsonfischl)
+![Carson's Github Trophies](https://github-profile-trophy.vercel.app/?username=carsonfischl&rank=-?)
 
 [![Carson's Leetcode Stats](https://leetcard.jacoblin.cool/carson6f)](https://leetcode.com/carson6f)
 
