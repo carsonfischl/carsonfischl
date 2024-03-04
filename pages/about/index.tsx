@@ -10,6 +10,9 @@ import tools from '../../public/images/tech4.svg'
 import ottawa from '../../public/images/IMG_4557.png'
 import rightarrow from '../../public/images/rightarrow.svg'
 import uparrow from '../../public/images/uparrow.svg'
+import turnarrow from '../../public/images/turnarrow.svg'
+import ubordeaux from '../../public/images/15283.svg'
+import carleton from '../../public/images/Carleton_Logo.svg'
 
 type Props = {}
 
@@ -29,7 +32,14 @@ const About = (props: Props) => {
                 <div className="align-center mb-24">
                   <Image src={ottawa} alt="ottawa" className='justify-center align-middle flex rounded'/>
                 </div>
-                <p className='font-mono text-white text-xl my-4 mb-20'>I am currently a graduate student at the University of Bordeaux, studying for my MBA. I am passionate about economics, digital marketing, and the synergies between information technology and business. Traveling around France and Europe has been an amazing experience - it's immense pleasure to learn about French cheeses (comté is my favourite), pastries (cannelés are the local Bordelais specialty), and other details of European culture and business.</p>
+                <p className='font-mono text-white text-xl my-4 mb-20 flex'>I am currently a graduate student at the University of Bordeaux, studying for my MBA. I completed my undergraduate degrees at Carleton University in Ottawa, where I studied computer science and biochemistry.</p>
+                <div className="flex align-center mb-5 justify-center m-auto content-center">
+                  <Image src={ubordeaux} alt="ubordeaux" className='justify-center align-middle flex rounded mb-20 object-scale-down'/>
+                </div>
+                <div className="flex align-center mb-20 justify-center m-auto content-center">
+                  <Image src={carleton} alt="carleton" className='justify-center align-middle flex rounded object-scale-down'/>
+                </div>
+                <p className='font-mono text-white text-xl my-4 mb-20'>I am passionate about economics, digital marketing, and the synergies between information technology and business. Traveling around France and Europe has been an amazing experience - it's immense pleasure to learn about French cheeses (comté is my favourite), pastries (cannelés are the local Bordelais specialty), and other details of European culture and business.</p>
                 <div className="align-center mb-20">
                   <Image src={bordeaux} alt="bordeaux" className='justify-center align-middle flex rounded'/>
                 </div>
