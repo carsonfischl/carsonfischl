@@ -13,6 +13,7 @@ import uparrow from '../../public/images/uparrow.svg'
 import turnarrow from '../../public/images/turnarrow.svg'
 import ubordeaux from '../../public/images/15283.svg'
 import carleton from '../../public/images/Carleton_Logo.svg'
+import arrows from '../../public/images/two-way-arrows.svg'
 
 type Props = {}
 
@@ -49,8 +50,8 @@ const About = (props: Props) => {
                       <div className='justify-centre align-top m-auto flex'>
                           <h2 className='text-2xl text-white font-mono p-4 italic'>Languages</h2>
                       </div>
-                      <div className='justify-centre align-top m-auto flex w-12'>
-                        <Image src={rightarrow} alt='rightarrow' className='rounded'/>
+                      <div className='justify-centre align-top m-auto flex w-20'>
+                        <Image src={arrows} alt='arrows' className='rounded lg:rotate-90'/>
                       </div>
                       <div className='justify-centre align-top m-auto flex'>
                         <Image src={langs} alt='langs' className='rounded'/>
@@ -58,8 +59,8 @@ const About = (props: Props) => {
                       <div className='justify-top align-top m-auto flex'>
                         <Image src={frameworks} alt='frameworks' className='rounded'/>
                       </div>
-                      <div className='justify-centre align-top m-auto flex w-12'>
-                        <Image src={rightarrow} alt='leftarrow' className='rounded xs:rotate-90 sm:rotate-90 lg:rotate-180'/>
+                      <div className='justify-centre align-top m-auto flex w-20'>
+                        <Image src={arrows} alt='arrows' className='rounded lg:rotate-90'/>
                       </div>
                       <div className='justify-top align-top m-auto flex'>
                           <h2 className='text-2xl text-white font-mono p-4 italic'>Frameworks</h2>
@@ -67,8 +68,8 @@ const About = (props: Props) => {
                       <div className='justify-top align-top m-auto flex'>
                           <h2 className='text-2xl text-white font-mono p-4 italic'>Databases</h2>
                       </div>
-                      <div className='justify-centre align-top m-auto flex w-12'>
-                        <Image src={rightarrow} alt='rightarrow' className='rounded'/>
+                      <div className='justify-centre align-top m-auto flex w-20'>
+                        <Image src={arrows} alt='arrows' className='rounded lg:rotate-90'/>
                       </div>
                       <div className='justify-top align-top m-auto flex'>
                         <Image src={databases} alt='databases' className='rounded'/>
@@ -76,8 +77,8 @@ const About = (props: Props) => {
                       <div className='justify-centre align-top m-auto flex'>
                         <Image src={tools} alt='tools' className='rounded'/>
                       </div>
-                      <div className='justify-centre align-top m-auto flex w-12'>
-                        <Image src={rightarrow} alt='leftarrow' className='rounded xs:rotate-90 sm:rotate-90 lg:rotate-180'/>
+                      <div className='justify-centre align-top m-auto flex w-20'>
+                        <Image src={arrows} alt='arrows' className='rounded lg:rotate-90'/>
                       </div>
                       <div className='justify-center align-top m-auto flex text-center'>
                           <h2 className='text-2xl text-white font-mono p-4 italic'>Ancillary Tools</h2>
