@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <div className='bg-gradient-to-r from-slate-500 to-slate-900 w-screen h-screen table-cell align-middle text-align items-center font-mono fixed'>
         <Nav />
         <Sig />
-        <Bubbles />
+        {/* <Bubbles /> */}
       </div>
       <Analytics />
     </>
