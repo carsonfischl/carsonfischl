@@ -33,7 +33,7 @@ const About = (props: Props) => {
                 <div className="align-center mb-24">
                   <Image src={ottawa} alt="ottawa" className='justify-center align-middle flex rounded'/>
                 </div>
-                <p className='font-mono text-white text-xl my-4 mb-20 flex'>I am currently a graduate student at the University of Bordeaux, studying for my MBA. I completed my undergraduate degrees at Carleton University in Ottawa, where I studied computer science and biochemistry.</p>
+                <p className='font-mono text-white text-xl my-4 mb-20 flex'>I am currently a US-based consultant, having recently completed my MBA. I completed my undergraduate degrees at Carleton University in Ottawa, where I studied computer science and biochemistry.</p>
                 <div className="flex align-center mb-5 justify-center m-auto content-center">
                   <Image src={ubordeaux} alt="ubordeaux" className='justify-center align-middle flex rounded mb-20 object-scale-down'/>
                 </div>
