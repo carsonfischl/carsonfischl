@@ -40,7 +40,7 @@ const About = (props: Props) => {
                 <div className="flex align-center mb-20 justify-center m-auto content-center">
                   <Image src={carleton} alt="carleton" className='justify-center align-middle flex rounded object-scale-down'/>
                 </div>
-                <p className='font-mono text-white text-xl my-4 mb-20'>I am passionate about economics, digital marketing, and the synergies between information technology and business. Traveling around France and Europe has been an amazing experience - it's immense pleasure to learn about French cheeses (comté is my favourite), pastries (cannelés are the local Bordelais specialty), and other details of European culture and business.</p>
+                <p className='font-mono text-white text-xl my-4 mb-20'>I am passionate about economics, history, numismatics, digital marketing, and the synergies between information technology and business. Traveling around France and Europe has been an amazing experience - it's immense pleasure to learn about French cheeses (comté is my favourite), pastries (cannelés are the local Bordelais specialty), and other details of European culture and business.</p>
                 <div className="align-center mb-20">
                   <Image src={bordeaux} alt="bordeaux" className='justify-center align-middle flex rounded'/>
                 </div>
