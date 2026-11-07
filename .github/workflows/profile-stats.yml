@@ -1,0 +1,47 @@
+name: Profile stats
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Generate stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          DISPLAY_NAME: Carson
+        run: node .github/scripts/generate-stats.mjs dist
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: 'chore: update profile stats [skip ci]'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
