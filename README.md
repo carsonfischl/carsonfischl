@@ -17,11 +17,10 @@
 
 ### 🧭 About me
 
-- 🇨🇦 Ex-Ottawa: public service, semiconductors, and telecom
-- 🇫🇷 Now in Bordeaux, finishing an MBA (cannelés > croissants, fight me)
-- 🎓 B.Sc. Computer Science + Biochemistry, Carleton University
-- 💡 Into the overlap of software, economics, and digital marketing
-- 🪙 Off the clock: coins, history, travel, and the gym
+- Ottawa 🇨🇦 (public service) -> Bordeaux 🇫🇷 (business school) -> New York 🇺🇸 (fintech) -> Montréal 🇨🇦 (sales engineering)
+- 🎓 B.Sc. Biochemistry + BCS Computer Science, Carleton University + MBA, Université de Bordeaux
+- 💡 Interested in the overlap of software, economics, and digital marketing
+- 🪙 My hobbies include coins, history, travel, and the gym
 
 ### 🛠️ Toolbox
 
@@ -37,8 +36,7 @@
 | --- | --- |
 | [**soundcrest**](https://github.com/carsonfischl/soundcrest) | Live waveform of whatever your Mac is playing (Swift) |
 | [**comitas-collection**](https://comitas-collection.vercel.app) | A global historiography through numismatics |
-| [**diy-llm**](https://github.com/carsonfischl/diy-llm) | DIY LLM experiments (Python) |
-| [**carsonfischl**](https://carsonfischl.vercel.app) | This site: Next.js + Tailwind, English and French |
+| [**csfischl**](https://csfischl.vercel.app) | My personal site: Next.js + Tailwind, English and French |
 
 ### 📊 Stats
 
