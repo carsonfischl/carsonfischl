@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="266" viewBox="0 0 450 266" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">
+  <rect x="0.5" y="0.5" rx="10" width="449" height="265" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="38" fill="#58a6ff" font-size="18" font-weight="600">Carson's GitHub Stats</text>
+  <g transform="translate(25, 70)">
+    <text font-size="14" fill="#c9d1d9">⭐  Total stars</text>
+    <text x="400" font-size="14" font-weight="700" fill="#7ee787" text-anchor="end">0</text>
+  </g>
+  <g transform="translate(25, 96)">
+    <text font-size="14" fill="#c9d1d9">📦  Public repos</text>
+    <text x="400" font-size="14" font-weight="700" fill="#7ee787" text-anchor="end">30</text>
+  </g>
+  <g transform="translate(25, 122)">
+    <text font-size="14" fill="#c9d1d9">🔨  Commits (last 12 mo)</text>
+    <text x="400" font-size="14" font-weight="700" fill="#7ee787" text-anchor="end">19</text>
+  </g>
+  <g transform="translate(25, 148)">
+    <text font-size="14" fill="#c9d1d9">🟩  Contributions (last 12 mo)</text>
+    <text x="400" font-size="14" font-weight="700" fill="#7ee787" text-anchor="end">25</text>
+  </g>
+  <g transform="translate(25, 174)">
+    <text font-size="14" fill="#c9d1d9">🔀  Pull requests</text>
+    <text x="400" font-size="14" font-weight="700" fill="#7ee787" text-anchor="end">4</text>
+  </g>
+  <g transform="translate(25, 200)">
+    <text font-size="14" fill="#c9d1d9">🐛  Issues</text>
+    <text x="400" font-size="14" font-weight="700" fill="#7ee787" text-anchor="end">2</text>
+  </g>
+  <g transform="translate(25, 226)">
+    <text font-size="14" fill="#c9d1d9">🗓️  Years on GitHub</text>
+    <text x="400" font-size="14" font-weight="700" fill="#7ee787" text-anchor="end">9</text>
+  </g>
+  <text x="430" y="254" fill="#8b949e" font-size="10" text-anchor="end">updated 2026-11-13</text>
+</svg>
